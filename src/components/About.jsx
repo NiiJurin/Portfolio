@@ -3,7 +3,7 @@ export default function About() {
     <section id="about" className="grid md:grid-cols-2 gap-8 glass p-8">
       <div className="flex items-center justify-center">
         <div className="w-40 h-40 bg-white/10 rounded-full flex items-center justify-center text-gray-500 text-4xl">
-          aa
+          ここに画像
         </div>
       </div>
       <div>
