@@ -7,7 +7,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="glass p-8">
+    <section id="skills" className="glass p-8 slide-up">
       <h2 className="text-2xl font-semibold mb-6">使用する言語</h2>
       <div className="space-y-4">
         {skills.map((s) => (

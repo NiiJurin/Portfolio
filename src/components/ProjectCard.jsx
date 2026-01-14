@@ -2,7 +2,7 @@ import { memo } from "react";
 
 function ProjectCard({ title, desc , link}) {
   return (
-    <div className="glass p-4 flex flex-col justify-between min-h-[150px]">
+    <div className="glass p-4 flex flex-col justify-between min-h-[150px] scale-on-hover">
       <div>
         <h3 className="font-semibold text-lg mb-2">{title}</h3>
         <p className="text-gray-400 text-sm">{desc}</p>

@@ -11,7 +11,7 @@ export default function Contact() {
   }, [sent]);
 
   return (
-    <section id="contact" className="glass p-8 grid md:grid-cols-2 gap-8">
+    <section id="contact" className="glass p-8 grid md:grid-cols-2 gap-8 slide-up">
       <div>
         <h2 className="text-2xl font-semibold mb-6">Contact</h2>
         <form

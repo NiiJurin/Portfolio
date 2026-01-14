@@ -7,20 +7,20 @@ const projectData = [
     link: "https://github.com/NiiJurin/Auto_MouthClick",
   },
   {
-    title: "Project 2",
-    desc: "Lorem ipsum dolor sit amet, consectetur.",
-    link: "https://github.com/NiiJurin/Project2"
+    title: "Portfolio Website",
+    desc: "React + Tailwind CSSで作成したポートフォリオサイト。レスポンシブデザインとモダンなUIを実装。",
+    link: "https://github.com/NiiJurin/Portfolio"
   },
   {
-    title: "Project 3",
-    desc: "Lorem ipsum dolor sit amet, consectetur.",
-    link: "https://github.com/NiiJurin/Project3"
+    title: "進行中のプロジェクト",
+    desc: "新しいアイデアを形にしているところ...もうすぐ公開予定です！",
+    link: "https://github.com/NiiJurin"
   },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="glass p-8">
+    <section id="projects" className="glass p-8 slide-up">
       <h2 className="text-2xl font-semibold mb-6">作ったもの</h2>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6">
         {projectData.map((p) => (
